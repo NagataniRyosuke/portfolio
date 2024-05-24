@@ -1,0 +1,128 @@
+body {
+    background-color: #a1dbff;
+    font-family: "Dela Gothic One", sans-serif;
+    padding-top: 50px;
+}
+
+.todoAppWrapper {
+    max-width: 530px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 10px 15px -5px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+a {
+    color: rgba(231, 97, 39, 0.507);
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 128, 199, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 171, 255, 1) 78%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.taskWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+.taskTitle {
+    display: flex;
+    align-items: center;
+}
+
+.taskCompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+.taskInCompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.LoginAndLogout {
+    padding: 20px;
+}
+
+.editButton {
+    color: rgb(0, 74, 0);
+    padding: 10px;
+}
+
+.deleteButton {
+    color: red;
+}
+
+.searchWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.searchInput {
+    height: 24px;
+    outline: none;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 160px !important;
+}
+
+.searchButton {
+    border: 1px solid lightskyblue;
+    padding: 4px 10px;
+    background-color: #fafafa;
+    color: lightskyblue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.searchButton:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.addButton {
+    font-size: 32px;
+    color: lightskyblue;
+}
+
+label {
+    display: block;
+
+}
+
+input[type = "text"],
+textarea {
+    width: 100%;
+}
+
+.accountWrapper {
+    padding: 10px 20px 20px 20px;
+} 
+
+.accountWrapper p {
+    margin: 0;
+    padding: 0;
+}
